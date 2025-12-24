@@ -1,0 +1,19 @@
+meta {
+  name: Upload Prescription (Store)
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/store/prescriptions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "image_url": "https://example.com/prescription.jpg",
+    "doctor_name": "Dr. Smith",
+    "patient_name": "John Doe"
+  }
+}

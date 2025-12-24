@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Suprameds Medusa Backend API",
+  "type": "collection",
+  "ignore": [
+    ".git",
+    "node_modules"
+  ]
+}

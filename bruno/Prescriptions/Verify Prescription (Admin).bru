@@ -1,0 +1,22 @@
+meta {
+  name: Verify Prescription (Admin)
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/admin/prescriptions/:id/verify
+  body: json
+  auth: none
+}
+
+params:path {
+  id: prescription_...
+}
+
+body:json {
+  {
+    "status": "APPROVED",
+    "rejection_reason": null
+  }
+}

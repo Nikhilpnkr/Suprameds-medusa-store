@@ -1,0 +1,26 @@
+meta {
+  name: Update Product Pharma (Admin)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/admin/products/:id/pharma
+  body: json
+  auth: none
+}
+
+params:path {
+  id: product_01JA498Y...
+}
+
+body:json {
+  {
+    "schedule_type": "H",
+    "storage_temperature": "Store below 25C",
+    "country_of_origin": "India",
+    "is_prescription_required": true,
+    "side_effects": "dizziness, nausea",
+    "composition": "Metformin 500mg"
+  }
+}

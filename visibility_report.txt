@@ -1,0 +1,11 @@
+--- API KEYS ---
+ID: apk_01KADY0GXWTB5F2SMY3AGHT3S6
+Title: Webshop
+Type: publishable
+Token: pk_a3f443b68efe82cacf00b28a266e2aab9422dbd44177a8d2e78d2c42a648c437
+Linked Sales Channels: Default Sales Channel
+----------------
+--- SAMPLE PRODUCT CHECK ---
+Product: Suprameds Product 1
+Status: published
+Sales Channels: Default Sales Channel

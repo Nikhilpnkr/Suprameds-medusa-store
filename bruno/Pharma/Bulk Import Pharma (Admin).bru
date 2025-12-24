@@ -1,0 +1,17 @@
+meta {
+  name: Bulk Import Pharma (Admin)
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/admin/import/pharma
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "csv": "title,handle,description,price,variant_sku,stock_quantity,schedule_type,storage_temperature,country_of_origin,composition,manufacturer\nParacetamol 500mg,para-500,Pain reliever,1.50,SKU-PARA-500,100,OTC,25C,India,Paracetamol,HealthCorp\nAmoxicillin 250mg,amox-250,Antibiotic,5.00,SKU-AMOX-250,50,H,20C,Germany,Amoxicillin,PharmaInc"
+  }
+}
